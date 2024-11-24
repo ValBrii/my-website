@@ -3,7 +3,15 @@ body {
     background-color: gray;
 }
 header {
-    background-color: aquamarine;
-    color: blue;
+    background-color: rgb(255, 127, 227);
+    color: white;
     padding: 20px;
+    font-size: large;
+    text-align: center;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    text-align: left;
 }
