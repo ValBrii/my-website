@@ -6,12 +6,21 @@ header {
     background-color: rgb(255, 127, 227);
     color: white;
     padding: 20px;
-    font-size: large;
+    font-size: medium;
     text-align: center;
 }
 nav ul{
     list-style: none;
     display: flex;
     gap: 20px;
-    text-align: left;
+    
+}
+nav a{
+    color: white;
+}
+nav a:hover{
+    color: greenyellow;
+}
+img {
+    size: 20px;
 }
