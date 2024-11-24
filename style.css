@@ -1,3 +1,7 @@
 body {
-    background-image: url('C:\Users\HP\Downloads\WhatsApp Image 2024-11-24 at 12.19.16.jpeg');
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #06f65a;
 }
