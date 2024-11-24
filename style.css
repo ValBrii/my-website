@@ -20,32 +20,72 @@ nav a{
     color: blue;
 }
 nav ul li a:hover{
-    color: greenyellow;
+    color: rgb(247, 8, 203);
 }
 #about {
     background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFrysV7P2KI7fRIT7IIoK4xZwBSePNSqVHpg&s');
-    padding: 2rem;
-    display: flex; /* Align content side by side */
-    gap: 1rem; /* Add space between items */
-    align-items: center; /* Vertically center content */
-    color: #fff; /* Ensure text is readable on the background */
+    padding: 20px;
+    display: flex; 
+    gap: 1rem; 
+    align-items: center; 
+    color: #fff; 
   }
   
   #about img {
-    width: 500px; /* Adjust image size */
+    width: 500px; 
     height: auto;
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Optional shadow */
+    border-radius: 10px; 
+
   }
   
   #about p {
-    display: flex; /* Allow text to take remaining space */
+    display: flex; 
     font-size: 1rem;
     line-height: 1.6;
-    max-width: 40%; /* Limit text width to prevent overflow */
+    max-width: 40%; 
   }
   
   #about h2 {
-    width: 100%; /* Ensure the heading spans the full width */
+    width: 100%; 
   }
+
+  /* Wrap the sections in a container for flexbox layout */
+
+  /* Apply flexbox directly to the body or a parent wrapper */
+
+  
+  #skills, #projects {
+     /* Each section takes equal space */
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow */
+  }
+  
+  #skills h2, #projects h2 {
+    color: #333;
+    font-size: 1.5rem;
+  }
+  
+  #skills p, #projects p {
+    font-size: 1rem;
+    line-height: 1.6;
+    display: flex;
+  }
+  
+  .project {
+    margin-top: 1rem;
+  }
+  
+  .project h3 {
+    font-size: 1.2rem;
+    color: #555;
+  }
+  
+  .project p {
+    font-size: 1rem;
+  }
+  
+  
+
   
