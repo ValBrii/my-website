@@ -1,7 +1,9 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-    background-color: #06f65a;
+    background-color: gray;
+}
+header {
+    background-color: aquamarine;
+    color: blue;
+    padding: 20px;
 }
