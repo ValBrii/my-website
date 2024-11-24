@@ -22,3 +22,30 @@ nav a{
 nav ul li a:hover{
     color: greenyellow;
 }
+#about {
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFrysV7P2KI7fRIT7IIoK4xZwBSePNSqVHpg&s');
+    padding: 2rem;
+    display: flex; /* Align content side by side */
+    gap: 1rem; /* Add space between items */
+    align-items: center; /* Vertically center content */
+    color: #fff; /* Ensure text is readable on the background */
+  }
+  
+  #about img {
+    width: 500px; /* Adjust image size */
+    height: auto;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Optional shadow */
+  }
+  
+  #about p {
+    display: flex; /* Allow text to take remaining space */
+    font-size: 1rem;
+    line-height: 1.6;
+    max-width: 40%; /* Limit text width to prevent overflow */
+  }
+  
+  #about h2 {
+    width: 100%; /* Ensure the heading spans the full width */
+  }
+  
