@@ -21,32 +21,5 @@ cd my-website
 Future improvements include making the website a bit more complex when I learn more about JavaScript and other programming languages
 
 
-
-
-
-## Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repo
-2. create a new branch 
-
-```bash
-git checkout -b feature/yourfeature
-```
-3. Commit your changes 
-
-```bash 
-git commit -m "Add a new feature"
-```
-
-4. Push to the branch
-``` bash
-git push origin feature/YourFeature 
-```
-
-5. Open a pull request
-
-
 ## Contact Information
 britneyvalerie85@gmail.com
